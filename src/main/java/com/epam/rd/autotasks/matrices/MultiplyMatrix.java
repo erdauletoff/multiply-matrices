@@ -24,7 +24,6 @@ public class MultiplyMatrix {
             for (int i = 0; i < n; i++) {
                 int sum = 0;
                 for (int j = 0; j < matrix1[0].length; j++) {
-//                    System.out.println(matrix1[k][j] + " " + matrix2[j][i]);
                     sum += matrix1[k][j] * matrix2[j][i];
                 }
                 result[k][i] = sum;
